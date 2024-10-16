@@ -1,55 +1,162 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+    <title>ranim jemai - Portfolio</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        *{
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            box-sizing: border-box;
+            font-family: 'poppins',sans-serif;
         }
-        header {
-            background-color: #333;
+        .header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 10px;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            z-index: 100;
+            justify-content: space-between;
+
+        }
+        .logo{
+            font-size: 25px;
             color: #fff;
-            padding: 1rem;
-            text-align: center;
+            text-decoration: none;
+            font-weight: 600;
+            cursor: default;
         }
-        section {
-            margin: 2rem;
+        body{
+            background:#1f242d;
+            color: #fff;
         }
-        h1, h2 {
-            color: #333;
+
+        .nav a{
+            font-size: 18px;
+            color:#fff;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 35px;
+            transition: .3s;
+
         }
-        .project {
-            border: 1px solid #ddd;
-            padding: 1rem;
-            margin-bottom: 1rem;
-            background-color: #fff;
+        .nav a:hover,
+        .nav a.active
+        {
+            color: #0ef;
+
         }
+        .home{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+       justify-content: space-between;
+            align-items: center;
+            padding: 70px 10% 0;
+            font-size: 50px;
+        }
+        .home1{
+            max-width: 600px;
+
+        }
+        .img img{
+            border-radius: 50%;
+            width: 400px;
+            height: 430px;
+            object-fit: cover;
+            margin: 20px auto;
+            display: block;
+            border-color: #0ef;
+            border: 2px solid #0ef; 
+            transition: .5s ease;
+            
+           }
+           .img img:hover{
+            box-shadow: 0 0 20px #0ef;}
+
+            h1{
+                color:#0ef;
+            }
+            .social-icons a {
+                
+            display:inline-flex;
+            justify-content: center;
+            align-items: center;
+           border: 2px solid #0ef; 
+            background: transparent; 
+            border-radius: 50%;
+            font-size: 20px;
+            color: #0ef;
+            text-decoration: none;
+            margin: 30px 15px 30px 0;
+            transition: .5s ease;
+            border-color: #0ef;
+            
+
+        }
+        .social-icons a:hover{
+            background: #0ef;
+            color: #1f242d;
+            box-shadow: 0 0 20px #0ef;
+        }
+      
+        img{
+            border: 2px solid #0ef; 
+            border-radius: 50%;
+            height: 20px;
+            width: 20px;
+          
+            transition: .5s ease;
+        }
+        
+        
+
+        
     </style>
 </head>
-<body>
-    <header>
-        <h1>Bienvenue sur mon Portfolio</h1>
-    </header>
-    <section>
-        <h2>À propos de moi</h2>
-        <p>Je suis un développeur passionné, avec une expertise en HTML, CSS, et JavaScript. J'aime construire des sites web modernes et efficaces.</p>
-    </section>
-    <section>
-        <h2>Mes Projets</h2>
-        <div class="project">
-            <h3>Projet 1</h3>
-            <p>Description du projet 1. Il s'agit d'une application web dynamique qui utilise des technologies modernes.</p>
-        </div>
-        <div class="project">
-            <h3>Projet 2</h3>
-            <p>Description du projet 2. Ce projet est un site statique avec un design élégant et responsive.</p>
-        </div>
-    </section>
-</body>
-</html>
+    <body>
+        <header class="header">
+            <a href="file:///C:/Users/Lenovo/Downloads/jemai%20ranim.html#" class="logo">Portfolio.</a>
+            <nav class="nav">
+                <a href="file:///C:/Users/Lenovo/Downloads/jemai%20ranim.html#" class="active">home</a>
+                <a href="file:///C:/Users/Lenovo/Downloads/jemai%20ranim.html#">about</a>
+                <a href="file:///C:/Users/Lenovo/Downloads/jemai%20ranim.html#">portfolio</a>
+                <a href="file:///C:/Users/Lenovo/Downloads/jemai%20ranim.html#">contact</a>
+             
+            </nav>
+        </header>
+        <section class="home">
+            <div class="home.">
+                <h3>hello,It's me </h3>
+                <h1>RANIM JEMAI</h1>
+                <h2> i'm a student</h2><br><br<br>
+                <p>this is my portfolio</p>
+     </br<br></div>
+
+            <div class="img">
+                <img src="./ranim jemai - Portfolio_files/IMG-20230111-WA0009.jpg" alt="">
+            </div><br>
+
+        
+        <div class="social-icons">
+            <a href="https://www.facebook.com/ranim.jemaii" target="_blank">
+                <img src="./ranim jemai - Portfolio_files/images.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/jemairanime/" target="_blank">
+                <img src="./ranim jemai - Portfolio_files/Instagram_logo_2022.svg.png" alt="Instagram">
+            </a>
+            <a href="file:///C:/Users/Lenovo/Downloads/White-Simple-Student-CV-Resume-1.pdf" target="blank">
+                <img src="./ranim jemai - Portfolio_files/icone-fleche-droite-violet.png" alt="cv">
+            </a>
+            <a href="https://gmail.com//ranimjemai662@gmail.com" target="blank">
+                <img src="./ranim jemai - Portfolio_files/images (1).png" alt="mail">
+        </a></div><a href="https://gmail.com//ranimjemai662@gmail.com" target="blank">
+        </a></section><a href="https://gmail.com//ranimjemai662@gmail.com" target="blank">
+        
+    </a></body></html>
